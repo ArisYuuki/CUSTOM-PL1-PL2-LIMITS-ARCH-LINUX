@@ -1,4 +1,8 @@
 # CUSTOM-PL1-PL2-LIMITS-ARCH-LINUX
+![Arch Linux](https://img.shields.io/badge/Arch-Linux-blue?logo=arch-linux)
+![CachyOS](https://img.shields.io/badge/CachyOS-Optimized-brightgreen)
+![Intel](https://img.shields.io/badge/CPU-Intel-blue)
+
 This is a custom setup I have made that can automatically change PL1/PL2 limits on your CPU by utilizing PPD power profiles, which is a great power saving option, aswell as an amazing way to lower temps on laptops.
 Tested on an Alienware M17 R4 Featuring an i7-10870h, 32GB DDR4, RTX 3080 16GB, CachyOS Linux with KDE.
 
