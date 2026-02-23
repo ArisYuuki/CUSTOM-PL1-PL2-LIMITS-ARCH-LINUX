@@ -12,7 +12,9 @@ sudo nano /usr/local/bin/set-pl-by-profile.sh
 
 ## Use this as a template
 -PL1 is your long power limits. This will be used to determine what baseline you want your CPU to run at while under load. a good baseline is to set your laptops PL1 to 10w LESS then the TDP it is rated for. In this case, my i7-10870h runs at 45w without turbo, but I actually have deminishing returns at about 38w in terms of temperature vs performance. setting it to 35w in balanced mode can lower my temperatures by 10C under load without my fans going crazy.
+
 -PL2 is the short power limits. This is used to determine the power limits for when the CPU is using the turbo to keep the system running stable during rapid changes. This essentially gives the CPU the ability to process moments in games where it goes from calm to chaos (think in the event of a first person shooter when you're running to the battlefield, to when you get into a massive gunfight with explosions and lots of things on screen moving) without having a massive dip in your framerate.
+
 -Tau for each of these will determine how long the CPU will boost for or hold that sustained clock speed for. Generally, longer PL1/PL2 times result in higher sustained clock speeds, but also more generated heat. having the PL2 Tau set between 2-8 seconds can keep your performance snappy, without melting the system.
 
 ```bash
