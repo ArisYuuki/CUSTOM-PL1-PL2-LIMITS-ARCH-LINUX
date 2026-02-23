@@ -3,8 +3,9 @@
 ![CachyOS](https://img.shields.io/badge/CachyOS-Optimized-brightgreen)
 ![Intel](https://img.shields.io/badge/CPU-Intel-blue)
 
-This is a custom setup I have made that can automatically change PL1/PL2 limits on your CPU by utilizing PPD power profiles, which is a great power saving option, aswell as an amazing way to lower temps on laptops.
-Tested on an Alienware M17 R4 Featuring an i7-10870h, 32GB DDR4, RTX 3080 16GB, CachyOS Linux with KDE.
+Fine‑tune Intel CPU power limits on Arch Linux laptops.
+
+This repository provides a simple systemd + script solution to automatically apply custom PL1 / PL2 power limits based on your active power profile. It integrates with Linux’s native powerprofilesctl interface so you get consistent performance tuning, better thermals, and optimized power efficiency on Intel‑based systems.
 
 # Intel PL Limits by Power Profile
 
